@@ -60,6 +60,21 @@ body {
 #main-header .links .navigation ul li a:hover {
   color: var(--link-nav-color);
 }
+#main-header .social ul {
+  display: flex;
+  align-items: center;
+}
+#main-header .social ul li {
+  padding: 1em;
+  filter: grayscale(100);
+  transition: 0.4s;
+}
+#main-header .social ul li:hover {
+  filter: grayscale(0);
+}
+#main-header .social ul li img {
+  width: 20px;
+}
 #main-header .flex-wrapper {
   display: flex;
   align-items: center;

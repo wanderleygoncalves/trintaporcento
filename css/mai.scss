@@ -64,6 +64,25 @@ body {
       }
     }
   }
+  .social {
+    ul {
+      display: flex;
+      align-items: center;
+      
+      li{
+        padding: 1em;
+        filter: grayscale(100);
+        transition: .4s;
+        &:hover {
+          filter: grayscale(0);
+        }
+
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
   .flex-wrapper {
     display: flex;
     align-items: center;
