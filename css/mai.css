@@ -227,6 +227,7 @@ body {
 }
 #page-home .section-blocks .flex-wrapper .column {
   position: relative;
+  margin: 0 2em;
 }
 #page-home .section-blocks .flex-wrapper .column-title {
   position: relative;
