@@ -236,7 +236,7 @@ body {
         
         &-title {
           font-size: 25px;
-          font-weight: 500;
+          font-weight: 300;
           text-transform: uppercase;
 
           &::before {
@@ -337,6 +337,37 @@ body {
           font-size: 18px;
           padding-top: 4em;
 
+        }
+      }
+    }
+
+    .left-features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 50px;
+      grid-row-gap: 95px;
+      width: 580px;
+      margin-top: 100px;
+      .item {
+        color: #fff;
+
+        &-description {
+          ul {
+            li {
+              position: relative;
+              padding-left: 10px;
+              &::before {
+                content: '';
+                background: #fff;
+                width: 5px;
+                height: 5px;
+                position: absolute;
+                top: 5px;
+                left: -10px;
+                border-radius: 50%;                
+              }
+            }
+          }
         }
       }
     }
